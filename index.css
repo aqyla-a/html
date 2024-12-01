@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(203, 255, 238);
+}
+.bese {
+    background-color: rgba(186, 111, 223, 0.779);
+    width: 500px;
+    margin: auto;
+    padding:auto;
+}
+#ak {
+    text-align: center;
+    color: rgb(75, 0, 0);
+}
+#lo {
+  color: darkcyan;
+}
+ 
