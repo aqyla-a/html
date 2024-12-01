@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(179, 215, 203);
+}
+header {
+    background-color: cadetblue;
+    color: azure;
+    padding: 10px 0;
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    font-style: unset;
+    top: 0;
+    
+
+}
+ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+   background-color: darkgrey;
+   display:block ;
+   
+   
+  
+}
+li{
+    float: left;
+    
+    
+}
+li a{
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color:rgb(82, 82, 82) ;
+}
+.b24 {
+    position: relative;
+   flex:3;
+}
+ .a12 {
+    position: relative;
+    flex: 4;
+ }
+
+ul {
+    position: sticky;
+    border: 1px solid black;
+    display: block;
+    padding: 10px 0;
+}
+.b24 {
+    font-size: 20px;
+    
+}
+
+
+main {
+    display: flex;
+    padding: 20px;
+}
+aside {
+    flex: 1;
+    background-color: azure;
+    padding: 40px;
+    
+}
+footer {
+    background-color:rgb(169,169,169) ;
+    color: beige;
+    text-align: center;
+    padding: 10px ;
+   bottom: 0;
+   width: 100%;
+
+}
+
+div{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
