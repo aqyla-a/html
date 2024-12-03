@@ -40,14 +40,6 @@ li a{
 li a:hover{
     background-color:rgb(82, 82, 82) ;
 }
-.b24 {
-    position: relative;
-   flex:3;
-}
- .a12 {
-    position: relative;
-    flex: 4;
- }
 
 ul {
     position: sticky;
